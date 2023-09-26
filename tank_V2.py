@@ -156,8 +156,8 @@ class board:
         
         self.display_score_blue()
         self.display_score_red()
-        self.game_over(BLUE, "Blue")
-        self.game_over(RED, "Red")
+        self.game_over(RED, "Blue")
+        self.game_over(BLUE, "Red")
         self.turn()
                 
 
